@@ -1,0 +1,34 @@
+.footer {
+  padding: 1rem;
+  background-color: $blockBgcolor;
+  border: 2px solid $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+
+  @include e(item) {
+    margin-right: 1rem;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+  @include e(link) {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url(#{$i}social.jpg) no-repeat;
+
+    @include m(fb) {
+      background-position: -32px 0;
+    }
+    @include m(tw) {
+      background-position: -64px 0;
+    }
+  }
+} /* /.social */

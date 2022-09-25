@@ -1,17 +1,12 @@
-$slickFonts: (
-  "slick.eot": "embedded-opentype",
-  "slick.woff": "woff",
-  "slick.ttf": "truetype",
-  "#slick": "svg",
-);
-
 @font-face {
-  font-family: "slick";
+  font-family: "icomoon";
   font-weight: normal;
+  font-display: block;
   font-style: normal;
-  src: url("#{$fontsPath}slick.eot");
-  src: url(".#{$fontsPath}slick.eot?#iefix") format("embedded-opentype"),
-    url("#{$fontsPath}slick.woff") format("woff"),
-    url("#{$fontsPath}slick.ttf") format("truetype"),
-    url("#{$fontsPath}#slick") format("svg");
+  src: url("#{$fontsPath}icomoon.eot?pbeyk0");
+  src: url(".#{$fontsPath}icomoon.eot?pbeyk0#iefix ")
+      format("embedded-opentype"),
+    url("#{$fontsPath}icomoon.ttf?pbeyk0") format("truetype"),
+    url("#{$fontsPath}icomoon.woff?pbeyk0") format("woff"),
+    url("#{$fontsPath}icomoon.svg?pbeyk0#icomoon") format("svg");
 }

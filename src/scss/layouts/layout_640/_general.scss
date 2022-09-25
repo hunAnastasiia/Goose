@@ -1,0 +1,6 @@
+.col {
+  @include m(right) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
